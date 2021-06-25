@@ -174,3 +174,31 @@ footer .arrow {
 		margin-top: 0;
 	}
 }
+
+/* Responsivity */
+@media only screen and (max-width: 1200px) {
+	header .center {
+		display: none;
+	}
+
+	header .right li {
+		display: none;
+	}
+
+	header .right .menu {
+		display: block;
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width:  600px) {
+	footer .button-area {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer .button-area a {
+		margin: 5px 20px;
+		width: calc(100vw - 60px);
+	}
+}
