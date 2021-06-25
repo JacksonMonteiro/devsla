@@ -1,0 +1,66 @@
+/* Fonts */
+@font-face {
+	font-family: "GothamMedium";
+	src: url("../fonts/GothamMedium.otf");
+}
+
+@font-face {
+	font-family: "GothamBook";
+	src: url("../fonts/GothamBookRegular.otf");
+}
+
+/* General */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'GothamMedium', Helvetica, Arial, sans-serif;	
+	font-size: 14px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+header ul, header li {
+	list-style: none;
+}
+
+header .logo {
+	width: 120px;
+	margin-left: 20px;
+}
+
+header .center ul, header .right ul {
+	display: flex;
+}
+
+header .center li, header .right li {
+	margin:  0 10px;
+}
+
+header .center a, header .right a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header .menu-icon {
+	width: 18px;
+	height: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+header .menu-icon div {
+	height: 2px;
+	background: #000;
+}
