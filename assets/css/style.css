@@ -1,3 +1,10 @@
+/* Variables */
+:root {
+	--header-color: #000;
+	--h1-color: #393C41;
+	--h2-color: #6E7378;
+}
+
 /* Fonts */
 @font-face {
 	font-family: "GothamMedium";
@@ -26,6 +33,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	height: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
 }
 
 header ul, header li {
@@ -46,7 +57,7 @@ header .center li, header .right li {
 }
 
 header .center a, header .right a {
-	color: #000;
+	color: var(--header-color);
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -62,5 +73,38 @@ header .menu-icon {
 
 header .menu-icon div {
 	height: 2px;
-	background: #000;
+	background: var(--header-color);
+}
+
+/* Main */
+main {
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+main .info {
+	height: 45vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	color: var(--h1-color);
+	font-size:  40px;
+	font-weight: 400;
+}
+
+h2 {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'GothamBook', Helvetica, Arial, sans-serif;
+}
+
+main h2 a {
+	color: var(--h1-color);
 }
