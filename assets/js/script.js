@@ -53,3 +53,18 @@ solarPanelsAnchor.addEventListener('click', (e) => {
 		behavior: 'smooth'
 	});
 });
+
+// JQuery
+$(function() {
+	$('#asideMenuCloser').on('click', function() {
+		$('aside').animate({
+			right: '-300px'
+		});
+	});
+
+	$('.menu').on('click', function() {
+		$('aside').animate({
+			right: '0'
+		});
+	});
+});
