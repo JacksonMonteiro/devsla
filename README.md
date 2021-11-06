@@ -15,7 +15,7 @@
 
 
 <h4 align="center" >
-:heavy_check_mark: Devsla | A clone of Tesla Website :car: In development :heavy_check_mark:
+:heavy_check_mark: Devsla | A clone of Tesla Website :car: Completed :heavy_check_mark:
 </h4>
 
 <h2 id="tech">Used technologies</h2>
