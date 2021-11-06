@@ -5,7 +5,7 @@
   A clone of tesla with some alterations, using semantic HTML, CSS (Flexbox) and Vanilla JS to rebuild website (Study object)!
 </p>
 
-![GitHub](https://img.shields.io/github/license/jacksonmonteiro/devsla?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/jacksonmonteiro/devsla?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/jacksonmonteiro/devsla?style=flat-square)
 
 ## Content table
 	
